@@ -63,19 +63,361 @@
 %==============================================================================
 
 
+Lo que se puede observar en la actualidad es un universo altamente homogéneo 
+e isotrópico a grandes escalas. Además de la radiación cósmica de fondo 
+conocemos que en una época más temprana al desacople de la radiación y materia
+las inhomogeneidades encontradas sólo se presentan en escalas muy pequeñas, 
+fluctuaciones que contrastan con la densidad de fondo.  
+Como consecuencia se han enunciado dos postulados que permiten  una mayor 
+simplicidad en el estudio del cosmos, el principio cosmológico y el postulado 
+de Weyl. 
+
+
+\
+
+Principo cosmol\'ogico: \emph{El universo es isotr\'opico y homog\'eneo 
+en grandes escalas.}
+
+\
+
+No sobra hacer un poco de claridad sobre los términos usados, homogéneo se 
+refiere a que independientemente de donde ubiquemos el sistema de referencia se 
+observará la misma estructura o propiedades del Universo. Por su parte, la
+isotropía establece que independiente de la dirección en que se realice una 
+observación se deben nuevamente observar las mismas propiedades del Universo. 
+En otras palabras, se tiene simetría rotacional y traslacional para el sistema
+de referencia escogido. 
+
+En la actualidad dichas características son observables en escalas de mega parsecs
+pero ya que el Universo se encuentra en expansión, dicha escala claramente 
+va a depender de la época cósmica en partícular. 
+
+
+Además existe otra premisa importante a tener en cuenta en un módelo 
+cosmológico, está es la expansión del Universo, la cuál deja fuertes 
+consecuencias en la predicción de la evolución de éste, 
+que dependerán del contenido de masa y energía total en el Universo. 
+Anteriormente se tenía una idea arraigada, que el universo era estático, muestra de 
+ello es el módelo cosmológico propuesto por Einstein donde se incluía 
+una constante tal que se satisfacíera dicha condición.
+Pero fue gracias a observaciones de galaxias cercanas realizadas 
+por Edwin Hubble, que se concluyó que las galaxias en su mayoría 
+tienen un corrimiento al rojo, en otras palabras, se están alejando 
+de nosotros. 
+\
+
+Una métricaque satisface las condiciones de isotropía y homogeneidad 
+
+\begin{equation}
+ds^2= c^2dt^2-a(t)^2\left[\frac{d^2r}{1-Kr^2} +r^2(d^2\theta
+ + \sin^2\theta d^2\phi )\right]
+\label{metrica}
+\end{equation} 	
+
+es la métrica Robertson Walker. El término $a(t)$ 
+es el factor de escala, describe como la distancia relativa entre 
+dos observadores fundamentales cambia con el tiempo y $K$ es la 
+constante de curvatura en el tiempo actual, define la geometría
+del Universo. 
+ 
+%**********************************************************************************************************************
+\begin{figure}[htbp]
+       \centering
+               \includegraphics[width=0.4\textwidth]{Images/factordeescala.pdf}
+       \caption{ \small Factor de Escala en función del tiempo. La expansión del Universo para 
+       diferentes contribuciones a la densidad, se obtiene un Universo cerrado para $\Omega_m = \Omega_o>1$,
+       los parámetros WMAP7 muestran que el Universo sufre una expansión acelerada. 
+       }
+       \label{factor}
+ \end{figure}
+%**********************************************************************************************************************
+
+
+A grandes escalas la interacción fundamental de mayor importancia es 
+la gravitacional, por lo que la teoría general de la relatividad 
+es una herramienta esencial en el estudio del cosmos. 
+Anteriormente se consideraba válida la teoría newtoniana de la gravitación pero 
+difiere considerablemente al compararla con la relatividad, 
+puesto que el tiempo y el espacio dejan de ser entes absolutos 
+además de ser afectados por 
+el contenido de energ\'ia y materia presente en el universo. 
+
+En el marco de la teoría newtoniana, la ecuaci\'on de Poisson ofrece una 
+relaci\'on entre la segunda derivada del campo y la densidad de materia 
+que es la fuente de dicho campo
+
+\[ \nabla^2\Phi=4\pi G\rho\]
+
+a ésta se reduce la ecuación de campo bajo las condiciones de bajas velocidades 
+y campo gravitacional débil ($\Phi/c^2<< 1$). 
+Pero la ecuación de campo no solo incluye la de Poisson sino además todo lo 
+relacionado con la dinámica newtoniana. La ecuación de campo Hilbert-Einstein es 
+entonces
+
+\eq{
+R_{\mu\nu}-\f{1}{2}g_{\mu\nu}R-g_{\mu\nu}\Lambda = \f{8\pi G}{c^4}T_{\mu\nu}
+}
+
+ésta es una ecuaci\'on tensorial de 6 componentes independientes. 
+El primer t\'ermino de la izquierda corresponde al tensor de Ricci 
+o a segundas derivadas del tensor m\'etrico $g_{\mu\nu}$. 
+En el segundo t\'ermino se encuentra el escalar de curvatura 
+que define la geometr\'ia. 
+En el tercer t\'ermino $\Lambda$ es la constante cosmol\'ogica, 
+es asociada a la la densidad con la que contribuye el vacío a 
+la densidad total y sería responsable por la expansión acelerada del 
+Universo. 
+Al lado derecho de la ecuación se encuentra el tensor momentun-energ\'ia 
+en la que se incluyen todas las contribuciones de energía y momentum 
+como su nombre lo indica.
+
+Es decir que al lado izquierdo se encuentran los t\'erminos que dan 
+cuenta por la geometr\'ia del universo mientras que en la derecha 
+los relacionados con la distribuci\'on de materia y e\-ner\-gía. 
+Por consiguiente se podría afirmar que la geometr\'ia es determinada por 
+el contenido de materia-energ\'ia del universo, aunque estrictamente 
+hablando el tensor de energ\'ia momentum tambi\'en depende del tensor m\'etrico. 
+
+
+\
+
+Existen diversas soluciones a la ecuación de Einstein 
+pero no muchas en forma analítica, por ejemplo Schwarzschild encontró 
+la m\'etrica de un astro est\'atico y con simetría esférica. 
+Otra soluci\'on es la m\'etrica de Kerr que corresponde a un astro en 
+rotaci\'on con un campo estacionario. 
+Claramente la m\'etrica de Robertson-Walker también satisface dichas ecuaciones.
+
+
+A partir de las ecuación de campo de Einstein y la métrica Robertson-Walker 
+es posible proponer módelos cosmológicos que den cuenta por la dinámica observada 
+en el Universo. 
+
+Una forma muy usada de las ecuaciones de Friedmann se obtiene de
+
+\begin{equation}
+\frac{H^2(z)}{H_o^{2}}=\Omega_{m,o}\left(1+z\right)^3+
+\Omega_{r,o}\left(1+z\right)^4+ \Omega_{\Lambda,o} + ( 1-\Omega_o)
+\left(1+z\right)
+\label{fried2}
+\end{equation}
+
+donde $\Omega_o=\Omega_{m,o} +\Omega_{r,o}+\Omega_{\Lambda,o}$ ,
+se ha introducido la relación entre el redshift y el factor de escala 
+$1+z=1/a$. Se observan las diferentes contribuciones de la densidad al 
+parámetro de Hubble, esto es, la densidad de materia, radiación y vacío. 
+Cada una contribuye dependiendo de la expansión del Universo, aunque 
+la energía del vacío no varía con el redshift.
+
+\
+
+Inicialmente el Universo estaba dominado por radiación, 
+durante esta época la radiación estaba acoplada con la materia, 
+es decir, la longitud de onda de De Broglie de los electrones es 
+comparable a la longitud de onda de la radiación. Por lo anterior 
+el camino libre medio de los fotones era despreciable, ocasionando
+que el universo fuera opaco. 
+Durante éste acople, la temperatura de la radiación es igual a 
+la de la materia y corresponde a la de un cuerpo negro. 
+
+Tal como se ve en la grafica \ref{densidad}, a partir de $z=3230$ la materia
+se vuelve la mayor contribuci\'on a la densidad del universo y
+cuando $z=1100$ la temperatura ha descendido lo suficiente para que 
+la tasa de recombinación sea mayor que la de ionización. 
+En este caso recombinación se refiere a la formación de átomos neutros, 
+lo que permitió el desacople materia radiación.
+Pero la última dispersión de la radiación debido a la 
+materia aún puede observarse, corresponde a la radiación 
+cósmica de fondo, la cual como consecuencia de la expansión del universo 
+ha ido enfriandose hasta alcanzar $T$ = $2.7K$. 
+  
+%**********************************************************************************************************************
+\begin{figure}[htbp]
+       \centering
+               \includegraphics[width=0.4\textwidth]{Images/density.pdf}
+       \caption{ \small Dependencia en el redshift para $\Omega_\Lambda$, $\Omega_m$ y $\Omega_r$.
+       A partir de $z_m$ la densidad de materia domina hasta $z_\Lambda$ 
+       donde el término de radiación empieza a dominar. El desacople radiación materia 
+       se da para $z_{rec}$. }
+       \label{densidad}
+ \end{figure}
+%**********************************************************************************************************************
+
+En la actualidad el Universo esta dominado por la densidad de vacío, aunque ésta 
+es constante puesto que no depende del factor de escala $\rho_{\Lambda}=-c^4\Lambda/8\pi G$,
+en contraposición con la materia que depende como $a^{-3}$ y la radiación como $a^{-4}$ 
+haciendo que dichas contribuciones disminuyan con el tiempo. 
+La constante cosmológica que se observa en esta definición puede ser asociada a una fuerza 
+repulsiva que se opone a la gravedad lo que podría dar cuenta de la expansi\'on 
+acelerada del universo. 
+
+	
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+\subsection*{Evolución de las Perturbaciones de Densidad en Régimen Newtoniano}
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Tal como se mencionó previamente no podemos detectar radiación proveniente 
+de una época previa a la de reionización, a causa de la dispersión Compton
+que mantenía acopladas la radiación y materia.
+Aunque si se puede observar la distribución altamente homogénea de la materia
+a este redshift en la radiación cósmica de fondo (Figura \ref{CMB}\footnote{
+Imagen WMAP obtenida en \url{http://lambda.gsfc.nasa.gov/product/map/current/m_images.cfm}}).  
+Dicha radiación cae en el microondas y da cuenta de variaciones 
+en la densidad de fondo, estás últimas resultan ser las causantes de 
+la estructura del Universo observada a más pequeñas escalas.
+Las variaciones en la densidad son fluctuaciones, $\delta$, que fueron 
+incrementando en el transcurso del tiempo, al menos las de nuestro
+interes. 
+Fue hasta que $\delta\sim 1$  que las fluctuaciones fueron lo 
+suficientemente grandes para ser consideradas objetos indi\-vi\-dua\-les, es decir,
+su movimiento no solo se debía al flujo de Hubble. 
+Lo anterior permite dar una cota superior en redshift a la formación de galaxias, 
+que se encuentra alrededor de $z\sim 100$, cuando la densidad promedio de estás 
+comparada con las de fondo es aproximadamente $1\times 10^6$. 
+
+Las fluctuaciones iniciales pueden ser tratadas en un regimen líneal mientras 
+los contrastes en densidad sean $\delta\ll 1$, por lo que para $z<100$ es una 
+suposición razonable. 
+
+%######################################################################################################################
+\subsubsection*{Descripción Newtoniana}
+%######################################################################################################################
+
+Las fluctuaciones de densidad iniciales tienen una longitud característica mucho menor 
+que la distancia de Hubble, la última se define como $d_H \approx ct$. En otras palabras,
+el tamaño de las fluctuaciones es muy pequeño comparada con la escala en la que la 
+curvatura del Universo es signficativa, permitiendo que la aproximación newtoniana sea válida. 
+
+
+Como se busca estudiar las fluctuaciones de densidad es útil expresar la 
+densidad como $\rho = \overline{\rho}+\delta\rho$, donde $\overline{\rho}$
+es la densidad de fondo. Adicionalmente es necesario aclarar que la velocidad 
+con la que las partículas se desplazan corresponde a dos contribuciones diferentes, 
+la primera es causada por la expansión del Universo y la 
+otra es la velocidad propia de la partícula. Partiendo de esto, se
+podría pensar en cambiar el sistema de referencia
+de las ecuaciones \ref{euler} tal que se satisfaga una descripción lagrangiana, 
+esto es, moverse con la expansión del Universo. 
+Veamos esto en más detalle, la velocidad en la descripción euleriana está dada 
+por $\textbf{u}= a\dot{\textbf{x}}+
+\textbf{x}\dot{a} = \textbf{v}+\textbf{x}\dot{a}$, donde $\textbf{v}$ es la velocidad 
+peculiar de la partícula y $\textbf{x}\dot{a}$ es la velocidad de expansión del Universo.
+
+Se puede obtener una ecuación de onda para las fluctuaciones de densidad 
+
+\begin{equation}
+\f{\partial^2\delta}{\partial t^2}+2\f{\dot{a}}{a}\pder{\delta}{t} =
+4\pi G \overline{\rho}\delta + \f{C_s^2}{a^2}\nabla^2\delta+\f{2}{3}\f{\overline{T}}{a^2}\nabla^2s
+\label{onda}
+\end{equation}
+
+donde $\overline{T}$ es la temperatura del fondo, $C_s$ es la velocidad del sonido. 
+Al lado derecho se encuentran las fuentes de las 
+fluctuaciones de densidad, como el campo gravitacional, la curvatura dada en términos de la segunda 
+derivada de las perturbaciones y cambios en la entropía del sistema. En el lado izquierdo 
+se encuentra el parámetro de Hubble que responde por la disipación de la fluctuación debido 
+a la expansión del Universo. 
+
+Se propone una solución a la ecuación de perturbaciones en términos de la serie de Fourier 
+
+\begin{eqnarray}
+\delta(x,t) &=& \sum_k \delta_k(t)e^{ik\cdot x} \nonumber\\
+s(x,t) &=& \sum_k s(t)e^{ik\cdot x} \nonumber
+\end{eqnarray}
+
+otro aspecto a tener presente es la independencia de las funciones $e^{ik\cdot x}$ lo que permite expresar 
+la ecuación \ref{onda} como
+
+\begin{equation}
+\f{d^2\delta_k(t)}{dt^2}+2\f{\dot{a}}{a}\der{\delta_k(t)}{t} = 
+\left[4\pi G\overline{\rho}-\f{C_s^2 k^2}{a^2}\right]\delta_k(t)
+-\f{2}{3}\f{\overline{T}}{a^2}k^2s_k(t)
+\label{ec.modos}
+\end{equation}
+
+la solución de está ecuación nos da los coeficientes de expansión de la serie de 
+Fourier, obteniendo así el comportamiento de las fluctuaciones de densidad durante
+el tiempo en que el régimen newtoniano permanece válido. 
+
+
+%######################################################################################################################
+\subsubsection*{Espectro de Potencias}
+%######################################################################################################################
+
+Para realizar un estudio del campo de densidad es necesario realizar un 
+tratamiento estadístico que nos permita conocer las propiedades de éste. 
+En esta dirección, se puede asumir que las fluctuaciones $\delta$ siguen una
+distribución normal centrada en $\langle \delta \rangle = 0$, lo cual es soportado
+por escenarios inflacionarios que predicen la formación de fluctuaciones como un
+campo gaussiano. Entonces, la probabilidad de que 
+se tenga un campo de densidad, o dicho en otra forma, la probabilidad de que se tenga 
+una distribución específica de fluctuaciones de densidad en el espacio de fourier está
+dada por 
+
+\begin{equation}
+\mathcal{P}(\delta_{\mbox{\boldmath$\kappa$}})r_{\mbox{\boldmath$\kappa$}}dr_{\mbox{\boldmath$\kappa$}}d\phi_{\mbox{\boldmath$\kappa$}}
+=
+\exp\left[-\f{r_{\mbox{\boldmath$\kappa$}}^2}{2V_u^{-1}P(\kappa)}\right]	\f{r_{\mbox{\boldmath$\kappa$}}}{V_u^{-1}}
+\f{dr_{\mbox{\boldmath$\kappa$}}}{P(\kappa)}\f{d\phi_{\mbox{\boldmath$\kappa$}}}{2\pi}
+\label{probabilidad}
+\end{equation}
+
+donde los términos dependientes de $r_{\mbox{\boldmath$\kappa$}}$ corresponden a la amplitud de las perturbaciones 
+y los de $\phi_{\mbox{\boldmath$\kappa$}}$ a la fase, la última varía aleatoriamente entre $[0,2\pi)$. 
+Esta función de densidad de probabilidad conjunta es de utilidad porqué permite independencia en los términos 
+$\delta_{\mbox{\boldmath$\kappa$}}$, es decir que es el producto de cada modo 
+
+\[
+\mathcal{P}_{\mbox{\boldmath$\kappa$}}(\delta_{\mbox{\boldmath$\kappa$}1},...,\delta_{\mbox{\boldmath$\kappa$}N})=
+\prod_{\mbox{\boldmath$\kappa$}}\mathcal{P}_{\mbox{\boldmath$\kappa$}}(\delta_{\mbox{\boldmath$\kappa$}})
+\]
+
+lo que no sucede al aplicar la transformada inversa de fourier ya que la función de probabilidad no es separable en el espacio de
+coordenadas. El término $P(\kappa)$ en \ref{probabilidad} es el espectro de potencias, éste es definido en el 
+espacio de fourier y está relacionada con la función de correlación en el espacio real
+
+\[
+P(k) = 4\pi\int_0^\infty \mathcal{E} (r)sinc(kr)r^2dr = V_u  \langle|\delta_{\mbox{\boldmath$\kappa$}}|^2\rangle
+\]
+
+$\mathcal{E} (r)$ proporciona la correlación entre dos puntos en el espacio. Adicionalmente se ha encontrado
+que el espectro de potencias esperado por la teoría inflacionaría es $P(\kappa)= k^n$, si $n$ toma
+el valor de 1 recibe el nombre de espectro Harrison-Zeldovich, es el que mejor 
+resultados proporciona. La isotropía del Universo es tomada en cuenta
+para el espectro de potencias puesto que se promedia sobre todas las posibles orientaciones del vector 
+${\mbox{\boldmath$\kappa$}}$, adicionalmente debe normalizarse con la cantidad $\sigma_8$ que da cuenta
+por la amplitud de las fluctuaciones a $8$Mpc/h. 
+Cuando el campo se asume como gaussiano se puede mostrar 
+que el espectro de potencias contiene toda la información del campo, por lo que
+para calcularlo se encuentra el espectro de potencias,
+obteniendo la propabilidad de \ref{probabilidad}. Al último se le aplica la transformada inversa
+obteniendo así la distribución del campo en coordenadas espaciales. Dicho campo de densidad inicial es usado
+para simulaciones cosmológicas o también puede ser tomado de las observaciones realizadas
+de la radiación cósmica de fondo. 
+
 %==============================================================================
 \section{Objectives}
 %==============================================================================
 
 \subsection*{General Objective}
 
-To study the properties of the baryon accoustic osscillations (BAOs), amplitude and width, using as 
-tracers the distribution of the halos in the sloan digital sky survey and their dependence with the tracer 
-halo population. 
+
+To study the properties of the baryon acoustic oscillations (BAOs), amplitude and width, using as
+tracers the distribution of the halos in the sloan digital sky survey and their dependence with the tracer
+halo population.
 
 \subsection*{Specific Objectives}
 
-\begin{enumerate}
+\begin{itemize} 
+
+\item[-] Study the physics of BAOs and the bases necessary to understand
+the expected behaviour of BAOs. 
+
+\item[-] Use observations and baryonic  and  dark matter numerical simulations to construct the power 
+spectrum and this way obtain the BAOs.  
+
+\item[-] Analyse biases and possible corrections to the power spectrum that can affect the baryonic
+acoustic oscillations obtained.
 
 \item[-] Determine in which way the structure scale is related to the amplitude and width of the baryon
 acoustic oscillations. 
@@ -84,42 +426,147 @@ acoustic oscillations.
 
 \item[-] Find a possible correlation between the BAOs properties and structure formation. 
 
-\end{enumerate}
+\item[-] Write a master thesis.
+
+\end{itemize}
 
 
 %==============================================================================
 \section{Methodology}
 %==============================================================================
 
-It is going to be used observational data from the SDSS, DR-7 and DR-12, to study the BAOs in the 
-observable universe. 
-There is going to be used N body cosmological simulations to model the formation process of large 
-scale structure. 
-The comparision between both of them it will provide information about the BAOs and its properties.  
+The work consists in analysing the behaviour of BAOs in different scenarios, then it is fundamental
+to find a way to obtain the BAOs either, from simulations or observations. For this reason, 
+it becomes necessary to develop a numerical tool to find such BAOs in any case. But in order to 
+build such a tool it is obviously needed a physical model that can account for BAOs. 
+Using the numerical tool there are going to be done several realizations, this is done seeking to avoid errors
+associated to cosmic variance and shot noise. Finally after this is done, there is going to be an 
+analysis of the BAOs in simulation(theoretical model) against the BAOs recovered from observations.
+
+\
+
+A more detailed procedure is shown below.
+
+\begin{itemize}
+
+\item[-] \textbf{ Bibliographical review }
+	
+In this first stage it will look for books, reviews and articles related with the physics of 
+BAOs, the different ways to find BAOs through the field density or correlation function, the 
+power spectrum, power spectrum calculation and corrections associated. As well as a search 
+through data base, specially to look for observational data  from the SDSS, DR-7 and DR-12 
+that are going to be used.
+
+\item[-] \textbf{ Construction of models } 
+
+Using the information collected in the bibliographical review
+it will be chosen a model to construct the density field of a baryonic  and  dark matter simulation,
+the power spectrum and the corrections to take into account. Equally, for the observational
+data collected is going to be used an specific model to construct the dark matter halos
+from which  BAOs are going to be found.
+
+\item[-] \textbf{ Model implementation } 
+
+In this section it will be coded the models proposed, i.e. ,
+a model to obtain BAOs from N body cosmological simulations and BAOs from certain observations.  
+The code will allow to make several numerical realizations of different baryonic  and  dark matter
+simulations and compare them with the BAOs obtained from observations. 
+
+\item[-] \textbf{ Analysis and conclusions } 
+
+It is necessary to analyse the results obtained in the 
+previous sesion. One of the most important 
+issue is to characterize the BAOs through this results and show if there are changes in its properties  
+with the cosmological scale, specifically if there is any possible change in the position or 
+width of the BAOs obtained in the power spectrum.  
+
+\item[-] \textbf{ Thesis and paper } 
+
+The results and conclusions will be written in  a master thesis and 
+an article. 
+
+\end{itemize}
 
 %==============================================================================
 \section{Expected Results}
 %==============================================================================
 
+The expected results when finishing the master studies are 
+
+\begin{itemize}
+
+\item[-] A code that finds the BAOs of a baryonic  and  dark matter cosmological simulation, that also includes 
+corrections to the power spectrum that possibly affect the BAOs results. 
+
+\item[-] Obtain BAOs from several observations, SDSS, DR-7 and DR-12, and conclude what changes appear 
+in the width and position of the BAOs with the structure scale. 
+
+\item[-] Comparison between the results obtained with baryonic  and  dark matter cosmological simulations
+and the BAOs obtained from observations to determine in an optimal way the properties of the BAOs.  
+
+\item[-] Study the dependence of tracer bias on the BAOs properties measured in the observations. 
+
+\item[-] A master thesis with the results obtained. 
+
+\item[-] A submitted article with the results obtained.  
+
+\end{itemize}
 
 %==============================================================================
 \section{Scientific Impact}
 %==============================================================================
 
+As it was pointed before, there was a time where matter and radiation was coupled, this caused acoustic
+oscillations due to the competing forces, radiation pressure and the gravity. Then, when decoupling occurred 
+a characteristic scale imprint appeared to various scales. Only the scales of around $150$Mpc survived 
+but these ones can be used as standard rulers  \cite{Eisenstein98}. Specifically these standard rulers 
+are more reliable  at high redshifts\cite{Wagner08} than other ones. 
+
+\
+
+A very active investigation field is dark energy (DE),  not only is about $70\%$ of the content of energy and
+matter of the universe but it has not been clearly understood nowadays. A equation of state (EOS) of the dark
+energy is then a relevant issue to be studied and in general it depends on the redshift, i.e., $w(z)$. Then
+it becomes necessary to have standard rulers for different stages, including high redshifts. Therefore, the 
+BAOs allows to get tight constraints on the parameters of the DE EOS. 
+
+\
+
+Hence, the relevance of this work is study the properties of the BAOs and this way to provide a better understanding
+of their behaviour, specifically to observe what are the changes in their position and width with scale structure
+getting a profound insight in the physics of BAOs. 
+
 
 %==============================================================================
 \section{Schedule}
 %==============================================================================
-	
+Next it is shown a table with the proposed activities scheduled for each term.
 
+\begin{table}[h]
+\begin{flushleft}
+\begin{center}
+  \begin{tabular}{l  c c c c } \hline\hline
+	\centering\textbf{Goals} & \textbf{Term I} & \textbf{Term II} & 
+	\textbf{Term III} & \textbf{Term IV} \\ \hline\hline
+	
+	 Bibliographical review & X & & & \\
+	 Construction of models & X & X & & \\
+	 Model implementation &  & X & X & \\
+	 Analysis and conclusions &  &  & X & \\
+	 Thesis and paper &  &  &  & X \\
+	\hline\hline
+  \end{tabular}  
+  \caption{ Terms range from 2015-02 for term I, up to 2017-01 for term IV.}
+\end{center}
+\end{flushleft}
+\end{table}
 
 %==============================================================================
 \bibliographystyle{latex/mn2e}
-\renewcommand{\bibname}{8\ \ \ \ Bibliography}
+\renewcommand{\bibname}{11\ \ \ \ Bibliography}
 \small
 \bibliography{references.bib}
 %==============================================================================
-
 
 
 \end{document}
