@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Proposal.aux
+The style file: latex/mn2e.bst
+Database file #1: References.bib.bib
+Warning--empty journal in Obs04
+Warning--empty journal in Sim03
+Warning--empty journal in Obs02
+Warning--empty journal in 10MPC
+Warning--empty journal in PLOT
+Warning--empty journal in Theo02
+Warning--empty journal in Biases
+Warning--empty journal in SIZE
+Warning--empty publisher in Longair
+Warning--empty journal in HBM01
+Warning--empty journal in Sim01
+Warning--empty publisher in PMB
+Warning--empty journal in Obs01
+Warning--empty journal in Sim02
+Warning--empty publisher in pilar
+Warning--empty journal in Theo01
+Warning--empty journal in last
+Warning--empty journal in Sim04
+Warning--empty journal in Theo03
+Warning--empty journal in PLOT2
+Warning--empty journal in DEF
+Warning--empty journal in Obs03
+You've used 24 entries,
+            2601 wiz_defined-function locations,
+            648 strings with 6958 characters,
+and the built_in function-call counts, 8735 in all, are:
+= -- 737
+> -- 635
+< -- 9
++ -- 223
+- -- 213
+* -- 823
+:= -- 1662
+add.period$ -- 0
+call.type$ -- 24
+change.case$ -- 167
+chr.to.int$ -- 24
+cite$ -- 46
+duplicate$ -- 246
+empty$ -- 382
+format.name$ -- 245
+if$ -- 1505
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 27
+newline$ -- 75
+num.names$ -- 96
+pop$ -- 189
+preamble$ -- 1
+purify$ -- 191
+quote$ -- 0
+skip$ -- 321
+stack$ -- 0
+substring$ -- 298
+swap$ -- 24
+text.length$ -- 0
+text.prefix$ -- 71
+top$ -- 0
+type$ -- 207
+warning$ -- 22
+while$ -- 72
+width$ -- 0
+write$ -- 199
+(There were 22 warnings)

@@ -10,9 +10,7 @@
 \usepackage{graphicx}
 \usepackage{array, xcolor, lipsum, bibentry}
 \usepackage[nottoc, notlof, notlot]{tocbibind}
-%\usepackage[spanish, activeacute]{babel} 
-%\usepackage[utf8]{inputenc}
-   
+
 \definecolor{lightgray}{gray}{0.8}
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
@@ -72,7 +70,7 @@
 %MY COMMANDS #############################################################
 \newcommand{\sub}[1]{\mbox{\scriptsize{#1}}}
 \newcommand{\dtot}[2]{ \frac{ d #1 }{d #2} }
-\newcommand{\pder}[2]{ \frac{ \partial #1 }{\partial #2} }
+\newcommand{\dpar}[2]{ \frac{ \partial #1 }{\partial #2} }
 \newcommand{\pr}[1]{ \left( #1 \right) }
 \newcommand{\corc}[1]{ \left[ #1 \right] }
 \newcommand{\lla}[1]{ \left\{ #1 \right\} }
@@ -81,12 +79,6 @@
 \newcommand{\mathsize}[2]{\mbox{\fontsize{#1}{#1}\selectfont $#2$}}
 \newcommand{\eq}[2]{\begin{equation} \label{eq:#1} #2 \end{equation}}
 \newcommand{\lth}{$\lambda_{th}$ }
-
-\newcommand{\code}[1]{\sffamily #1\normalfont}
-\newcommand{\xml}[1]{\tt #1\normalfont}
-\newcommand{\f}[2]{\frac{#1}{#2}}
-\newcommand{\der}[2]{\frac{d #1}{d #2}}
-\newcommand{\ngr}[1]{\textbf{#1}}
 %#########################################################################
 
 \setlength\parindent{0pt}
